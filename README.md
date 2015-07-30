@@ -1,6 +1,10 @@
 ansible-modules-extras
 ======================
 
+This repo was forked from github.com/ansible to contribute softlayer modules.
+Much of the automation will be done with autoscale groups via the softlayer portal.
+What can't be done there (like tagging) will be done in this repo in the cloud/softlayer folder.
+
 This repo contains a subset of ansible-modules with slightly lower use or priority than "core" modules.
 
 All new modules should be submitted here, and have a chance to be promoted to core over time.
